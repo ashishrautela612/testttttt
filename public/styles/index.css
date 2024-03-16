@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid black; */
+}
+
+.fullWidth{
+    width: 100%;
+}
+.mainContainer{
+
+}
+
+
+.homeSection{
+    background-image: url(../images/landingPageBg.png);
+    padding-top: 13%;
+    padding-left: 20%;
+    padding-bottom: 21%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.homeSectionHeading{
+    color: white;
+    font-size: 55px;
+    line-height: 1;
+}
+.homeSectionBtnContainer{
+    padding-top: 5%;
+}
+.readMoreBtn{
+    background-color: #ed242e;
+    color: white;
+    border: none;
+    padding: 0.5% 2.5%;
+    margin-right: 10px;
+}
+
+.aboutUsBtn{
+background-color: white;
+color: black;
+border: none;
+padding: 0.5% 2.5%;
+}
+ 
