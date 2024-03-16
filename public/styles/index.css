@@ -13,8 +13,20 @@
 button{
     cursor: pointer;
 }
+
+img{
+    width: 100%;
+}
+ 
 .fullWidth {
   width: 100%;
+}
+
+.dFlexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .header {
     display: flex;
@@ -199,4 +211,41 @@ padding: 15px 63px;
   color: #111111;
   font-weight: 500;
   text-align: center;
+}
+.preventionsContainer{
+    padding: 2% 4%;
+}
+.preventions{
+    background-image: url(../images/prevention.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.preventionsCards{
+    padding: 11% 0%;
+    justify-content: center;
+    gap: 3%;
+}
+
+.preventionDetails{
+    background-color: rgba(254,246,252,255);
+    border-radius: 10px;
+    padding: 50px 20px 20px 20px;
+    gap: 3px;
+}
+.preventionCard{
+    width: 22%;
+    gap: 32px;
+}
+
+.para{
+    font-size: 12px;
+}
+
+.prevention{
+    font-weight:bold;
+}
+.preventionImageContainer{
+    height: 90px;
+    width: 75px;
 }
