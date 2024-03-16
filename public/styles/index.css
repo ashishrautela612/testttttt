@@ -10,43 +10,193 @@
   /* border: 1px solid black; */
 }
 
-.fullWidth{
+button{
+    cursor: pointer;
+}
+.fullWidth {
+  width: 100%;
+}
+.header {
+    display: flex;
     width: 100%;
-}
-.mainContainer{
 
 }
-
-
-.homeSection{
-    background-image: url(../images/landingPageBg.png);
-    padding-top: 13%;
-    padding-left: 20%;
-    padding-bottom: 21%;
-    background-size: 100%;
-    background-repeat: no-repeat;
+.sec {
+    flex: 1;
 }
 
-.homeSectionHeading{
+.header {
+    position: absolute;
+}
+.navbar {
+    background-color: #ed242e;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.navbar a {
     color: white;
-    font-size: 55px;
+    text-align: center;
+    padding: 14px 23px;
+    vertical-align: middle;
+font-size: 13px;
+}
+.one i {
+    color: #fff;
+    padding: 20px;
+    font-size: 15px;
+    padding-top: 26px;
+}
+.corona{
+    font-size: 14px !important;
+    font-weight: 500;
+}
+.corona::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 100%;
+    height: 160%;
+    background-image: url(../images/logo.png);
+    background-size: 92px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user{
+    background-color: rgba(0, 19, 43, 255);
+}
+.dFlex {
+  display: flex;
+}
+
+.lineHeightOne{
     line-height: 1;
 }
-.homeSectionBtnContainer{
-    padding-top: 5%;
+.mainContainer {
+  background-color: rgba(254, 254, 253, 255);
 }
-.readMoreBtn{
-    background-color: #ed242e;
-    color: white;
-    border: none;
-    padding: 0.5% 2.5%;
-    margin-right: 10px;
+.homeSection {
+  background-image: url(../images/landingPageBg.png);
+  padding-top: 13%;
+  padding-left: 20%;
+  padding-bottom: 21%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.homeSectionHeading {
+  color: white;
+  font-size: 57px;
+  line-height: 1;
+}
+.homeSectionBtnContainer {
+  padding-top: 5%;
+}
+.readMoreBtn {
+  background-color: #ed242e;
+  color: white;
+  border: none;
+  padding: 0.8% 4.5%;
+  margin-right: 10px;
+  font-size: 11px;
+}
+.aboutUsBtn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.8% 4.5%;
+  font-size: 11px;
+}
+.aboutCoronaVirusContainer {
+  width: 84%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 60px;
+  box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
+  position: relative;
+  top: -135px;
+}
+.aboutCorona {
+  gap: 3%;
+}
+.aboutContent {
+  width: 59%;
+  padding-top: 9%;
+  padding-left: 5%;
+  padding-bottom: 8%;
+}
+.coronaImage {
+  width: 27%;
+  padding-top: 5%;
+}
+.coronaImageContainer {
+}
+.aboutSectionHeading {
+  font-size: 30px;
+}
+.aboutbottomBar {
+  width: 60px;
+  height: 6px;
+  background-color: #ed242e;
+  border-radius: 3px;
+}
+.aboutCoronaDescription {
+  font-size: 12px;
+  padding-top: 5%;
+  padding-bottom: 6%;
+  color: #111111;
+  font-weight: 500;
 }
 
-.aboutUsBtn{
-background-color: white;
-color: black;
-border: none;
-padding: 0.5% 2.5%;
+.readMoreAboutCoronaBtn {
+    padding: 2.5% 10%;
+    background-color: rgba(5, 37, 77, 255);
+    color: white;
+    border: none;
 }
- 
+.whatIsCorona{
+padding: 0% 13% 0% 18%
+}
+.coronaSymptoms{
+    justify-content: space-between;
+    gap: 6%;
+}
+.coronaSymtomsFigure{
+    width: 50%;
+
+}
+.coronaDescription{
+    width: 48%;
+  font-size: 12px;
+  color: #111111;
+  font-weight: 500;
+  padding: 4% 0%;
+}
+
+.coronaDescription > p{
+    width: 81%;
+    padding: 7% 0%;
+}
+
+.coronaDescription > button {
+padding: 15px 63px;
+}
+
+.coronaDescription > h1{
+    font-size: 35px;
+}
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.paddingTop{
+    padding-top: 6%;
+}
+.preventionDesc{
+    font-size: 12px;
+  color: #111111;
+  font-weight: 500;
+  text-align: center;
+}
