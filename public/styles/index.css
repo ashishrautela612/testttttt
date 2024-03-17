@@ -207,10 +207,11 @@ padding: 15px 63px;
     padding-top: 6%;
 }
 .preventionDesc{
-    font-size: 12px;
+  font-size: 12px;
   color: #111111;
   font-weight: 500;
   text-align: center;
+  line-height: 2;
 }
 .preventionsContainer{
     padding: 2% 4%;
@@ -224,17 +225,17 @@ padding: 15px 63px;
 .preventionsCards{
     padding: 11% 0%;
     justify-content: center;
-    gap: 3%;
+    gap: 2%;
 }
 
 .preventionDetails{
     background-color: rgba(254,246,252,255);
-    border-radius: 10px;
+    border-radius: 16px;
     padding: 50px 20px 20px 20px;
     gap: 3px;
 }
 .preventionCard{
-    width: 22%;
+    width: 23%;
     gap: 32px;
 }
 
@@ -249,3 +250,16 @@ padding: 15px 63px;
     height: 90px;
     width: 75px;
 }
+.preventionReadMoreBtn{
+  padding: 3.5% 12%;
+  border: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 800;
+  color: white;
+  background-color: rgba(5,37,77,255);
+}
+
+ #secondeReadMoreBtn{
+  background-color: #ed242e;
+ }
