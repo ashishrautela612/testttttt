@@ -88,12 +88,41 @@ font-size: 13px;
   background-color: rgba(254, 254, 253, 255);
 }
 .homeSection {
+  position: relative;
   background-image: url(../images/landingPageBg.png);
   padding-top: 13%;
   padding-left: 20%;
   padding-bottom: 21%;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.homeSectionArrows{
+  position: absolute;
+    background-color: #ed242e;
+    height: 80px;
+    width: 50px;
+}
+.leftArrow{
+  border-radius: 0px 71px 76px 0px;
+    left: 0;
+    top: 34%;
+}
+.leftArrow > i {
+  position: absolute;
+  font-size: 35px;
+  top: 23%;
+}
+.rightArrow{
+  right: 0;
+  top: 34%;
+  border-radius: 71px 0px 0px 76px;
+}
+.rightArrow > i{
+  position: absolute;
+  top: 26%;
+  right: 6%;
+  font-size: 35px;
+
 }
 .homeSectionHeading {
   color: white;
@@ -306,6 +335,10 @@ padding: 0% 13% 0% 18%
 
 .casescardsContainer{
   padding: 2% 4%;
+  background-image: url(../images/cononaBg.png);
+  background-repeat: no-repeat;
+  background-position: left 15% top 0%;
+    background-size: 7% 13%;
 }
 .caseDescContainer{
   padding-top: 6%;
@@ -330,11 +363,10 @@ box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
 }
 .coronaIcon{
   height: 63px;
-    width: 63px;
-    position: absolute;
-    /* bottom: -29px; */
-    bottom: -30px;
-    left: 151px;
+  width: 63px;
+  position: absolute;
+  bottom: -6%;
+  left: 40%;
 }
 .cardReadMoreBtn{
   position: absolute;
@@ -360,7 +392,7 @@ position: relative;
   background-image: url(../images/cononaBg.png);
   background-repeat: no-repeat;
   background-position: top 37% right 10%;
-  background-size: 6% 19%;
+  background-size: 6% 23%;
 }
 .upperCase{
   text-transform: uppercase;
@@ -377,7 +409,7 @@ position: relative;
   background-image: url(../images/cononaBg.png);
   background-repeat: no-repeat;
   background-position: left 6% top 2%;
-  background-size: 6% 19%;
+  background-size: 6% 23%;
   padding-top: 2%;
 }
 
