@@ -192,7 +192,10 @@ padding: 0% 13% 0% 18%
 }
 
 .coronaDescription > button {
-padding: 15px 63px;
+  padding: 15px 59px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .coronaDescription > h1{
@@ -220,6 +223,7 @@ padding: 15px 63px;
     background-image: url(../images/prevention.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    position: relative;
 }
 
 .preventionsCards{
@@ -258,8 +262,35 @@ padding: 15px 63px;
   font-weight: 800;
   color: white;
   background-color: rgba(5,37,77,255);
+  transition: all 0.55s;
 }
-
- #secondeReadMoreBtn{
+.preventionReadMoreBtn:hover{
   background-color: #ed242e;
+  border-radius: 15px;
+  transform: scale(1.1);
+  
+}
+ /* #secondeReadMoreBtn{
+  background-color: #ed242e;
+ } */
+
+ .preventionArrows{
+  position: absolute;
+  bottom: 3%;
+  left: 44%;
  }
+
+ .preventionArrow{
+  height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255,255,255,255);
+  box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
+  font-size: 16px;
+  transition: all 0.55s;
+}
+.preventionArrow:hover{
+  background-color: #ed242e;
+}
+ 
