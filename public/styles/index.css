@@ -381,3 +381,66 @@ input[type="email"]::placeholder {
 .updateHeading{
   padding-bottom: 2%;
 }
+
+.footerContainer{
+  background-color:rgba(17,17,17,255)   ;
+  color: white;
+  padding-left: 16%;
+  padding-right: 12%;
+  padding-top: 6%;
+  padding-bottom: 3%;
+}
+
+.footer{
+  padding-bottom: 5%;
+}
+.footerCol{
+  font-size: 12px;
+  /* font-weight: 500; */
+  color: #eaeae0;
+}
+.footerCol > h2{
+  text-transform: uppercase;
+  color: #fff;
+}
+.colOne{
+width: 15%;
+}
+.colOne > a{
+  color: #eaeae0;
+  
+}
+.colTwo{
+width: 25%;
+}
+ .colTwo > p{
+  line-height: 1.8;
+ }
+.colThree{
+width: 18%;
+}
+.colFour{
+width: 25%;
+}
+.footerCol h2{
+  padding-bottom: 10%;
+}
+.colOne,.colThree{
+display: flex;
+flex-direction: column;
+gap: 13px;
+}
+.colThree i {
+  padding-right: 8px;
+  color: white;
+}
+.copyRight{
+  width: 70%;
+    margin: auto;
+  color: #eaeae0;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid #eaeae0;
+  padding-top: 2%;
+
+}
