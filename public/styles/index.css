@@ -192,11 +192,11 @@ padding: 0% 13% 0% 18%
   padding: 15px 59px;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 12px;
 }
-.coronaDescription > h1{
+/* .coronaDescription > h1{
     font-size: 35px;
-}
+} */
 .heading{
     font-size: 35px;
     text-transform: uppercase;
@@ -229,7 +229,7 @@ padding: 0% 13% 0% 18%
 .preventionDetails{
     background-color: rgba(254,246,252,255);
     border-radius: 16px;
-    padding: 50px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
     gap: 3px;
 }
 .preventionCard{
@@ -245,6 +245,7 @@ padding: 0% 13% 0% 18%
 }
 .prevention{
     font-weight:bold;
+    font-size: 13px;
 }
 .preventionImageContainer{
     height: 90px;
@@ -330,4 +331,53 @@ position: relative;
 }
 .commaContainer{
   font-size: 26px;
+}
+
+.updates{
+  background-image: url(../images/cononaBg.png);
+  background-repeat: no-repeat;
+  background-position: left 6% top 2%;
+  background-size: 6% 19%;
+  padding-top: 2%;
+}
+
+.update{
+  background-image: url(../images/updateBg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.formContainer{
+  padding: 5% 4% 3% 4%;
+}
+
+input[type="email"] {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  padding: 1.5% 2%;
+  width: 75%;
+  border-radius: 30px;
+  color: white;
+}
+
+input[type="email"]::placeholder {
+  color: white;
+}
+.formContainer > form{
+  gap: 20px;
+}
+.updateBtn{
+  padding: 1.5% 6%;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(5, 37, 77, 255);
+  color: white;
+  text-transform: uppercase;
+}
+.updateHeading{
+  padding-bottom: 2%;
 }
