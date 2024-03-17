@@ -9,24 +9,24 @@
   list-style: none;
   /* border: 1px solid black; */
 }
-
 button{
     cursor: pointer;
 }
-
 img{
     width: 100%;
 }
- 
 .fullWidth {
   width: 100%;
 }
-
 .dFlexCol{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.spaceBt{
+  justify-content: space-between;
 }
 .header {
     display: flex;
@@ -36,7 +36,6 @@ img{
 .sec {
     flex: 1;
 }
-
 .header {
     position: absolute;
 }
@@ -81,6 +80,7 @@ font-size: 13px;
 }
 .dFlex {
   display: flex;
+  /* justify-content: space-between; */
 }
 
 .lineHeightOne{
@@ -160,7 +160,6 @@ font-size: 13px;
   color: #111111;
   font-weight: 500;
 }
-
 .readMoreAboutCoronaBtn {
     padding: 2.5% 10%;
     background-color: rgba(5, 37, 77, 255);
@@ -176,7 +175,6 @@ padding: 0% 13% 0% 18%
 }
 .coronaSymtomsFigure{
     width: 50%;
-
 }
 .coronaDescription{
     width: 48%;
@@ -190,14 +188,12 @@ padding: 0% 13% 0% 18%
     width: 81%;
     padding: 7% 0%;
 }
-
 .coronaDescription > button {
   padding: 15px 59px;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 15px;
 }
-
 .coronaDescription > h1{
     font-size: 35px;
 }
@@ -225,13 +221,11 @@ padding: 0% 13% 0% 18%
     background-size: 100%;
     position: relative;
 }
-
 .preventionsCards{
     padding: 11% 0%;
     justify-content: center;
     gap: 2%;
 }
-
 .preventionDetails{
     background-color: rgba(254,246,252,255);
     border-radius: 16px;
@@ -242,11 +236,9 @@ padding: 0% 13% 0% 18%
     width: 23%;
     gap: 32px;
 }
-
 .para{
     font-size: 12px;
 }
-
 .prevention{
     font-weight:bold;
 }
@@ -279,7 +271,6 @@ padding: 0% 13% 0% 18%
   bottom: 3%;
   left: 44%;
  }
-
  .preventionArrow{
   height: 70px;
     width: 70px;
@@ -293,4 +284,46 @@ padding: 0% 13% 0% 18%
 .preventionArrow:hover{
   background-color: #ed242e;
 }
- 
+.descPadding{
+  padding: 1% 26%;
+}
+.imageContainer{
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  bottom: 86%;
+  left: 39%;
+  /* border-radius: 50%; */
+  /* border: none; */
+}
+.imageContainer > img{
+  border-radius: 50%;
+  box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
+}
+
+.adviceCard{
+background-color: rgba(254,254,253,255);
+box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
+border-radius: 10px;
+width: 49%;
+padding: 50px 30px 27px 30px;
+position: relative;
+
+}
+.advices{
+  padding: 5% 16%;
+  background-image: url(../images/cononaBg.png);
+  background-repeat: no-repeat;
+  background-position: top 37% right 10%;
+  background-size: 6% 16%;
+}
+.upperCase{
+  text-transform: uppercase;
+}
+.doctorsDetails{
+  gap: 7px;
+  padding-top: 3%;
+}
+.commaContainer{
+  font-size: 26px;
+}
